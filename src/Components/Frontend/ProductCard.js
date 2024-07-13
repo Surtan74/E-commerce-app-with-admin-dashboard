@@ -28,7 +28,7 @@ const ProductCard = ({product}) => {
         </div>
         <div className="card-body">
             <h6 className="card-title">{title.length < 21 ? title : `${title.slice(0,20)}. . .`}</h6>
-            <p className="card-text mb-1">Price: {price}$</p>
+            <p className="card-text mb-1">Price: {price}ksh</p>
             <div className='d-flex justify-content-between align-items-center'>
                 <Link to={`/products/${category}/${id}`}>view details</Link>
                 <button

@@ -32,7 +32,7 @@ const ProductSingle = () => {
             </div>
             <div className="col-md-6">
               <h1 className=" mb-3 pt-0 pt-md-5 fw-bolder">{product.title}</h1>
-              <div className="fs-5">Price : {product.price}$</div>
+              <div className="fs-5">Price : {product.price}ksh</div>
               <div className="fs-5">Category : {product.category}</div>
               <div className="fs-5 mb-3">Brand : {product.brand}</div>
               <p className="lead fs-5 mb-4">{product.description}</p>

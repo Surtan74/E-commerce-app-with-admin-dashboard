@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { dateformater } from "../../../Utility/dateformater";
 
 const OrdersTable = ({ orders }) => {
-
   return (
     <>
       <div className="table-responsive">
@@ -21,8 +20,9 @@ const OrdersTable = ({ orders }) => {
           </thead>
           <tbody>
             {orders.map((order) => {
-              const { id, customerName, customerEmail, date, total, status } = order;
-              const {formatedDate} = dateformater(date)
+              const { id, customerName, customerEmail, date, total, status } =
+                order;
+              const { formatedDate } = dateformater(date);
 
               return (
                 <tr key={id}>
@@ -30,12 +30,12 @@ const OrdersTable = ({ orders }) => {
                   <th className="text-start">{customerName}</th>
                   <td>{customerEmail}</td>
                   <td>{formatedDate}</td>
-                  <td>{total.toFixed(2)}$</td>
+                  <td>{total.toFixed(2)}ksh</td>
                   <td className="fw-bold">{status}</td>
                   <td>
                     <Link
                       className={`btn btn-sm  btn-primary`}
-                      to={`/admin/orders/${id}`}
+                      to={`/admin/orders/{id}`}
                     >
                       View
                     </Link>
@@ -51,4 +51,3 @@ const OrdersTable = ({ orders }) => {
 };
 
 export default OrdersTable;
-
