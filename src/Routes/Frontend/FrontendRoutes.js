@@ -14,6 +14,8 @@ import Profile from '../../Pages/Frontend/Profile'
 import ProfileEdit from '../../Pages/Frontend/ProfileEdit'
 import SignUp from '../../Pages/Frontend/SignUp'
 import ProtectedFrontEndRoutes from './ProtectedFrontEndRoutes'
+import Footer from '../../Components/Frontend/Footer'
+
 
 const FrontendRoutes = () => {
 
@@ -30,6 +32,7 @@ const FrontendRoutes = () => {
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
+          <Route  path='/footer' element={<Footer />}  />
 
           <Route element={<ProductPageLayout />} >
             <Route path='/products' element={<Navigate to={'/products/all'} />} />

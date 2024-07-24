@@ -25,6 +25,7 @@ const store = configureStore({
         frontendProducts: frontendProductsSlice,
         orders: ordersSlice,
         cart: cartSlice,
+        
     }
 })
 
