@@ -182,7 +182,7 @@ const Checkout = () => {
                     type="text" 
                     id="county" 
                     className="form-control" 
-                    placeholder="enter state" 
+                    placeholder="enter county" 
                     name="county" 
                     value={deliveryInfo.state}
                     onChange={handleChange}
