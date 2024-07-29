@@ -189,6 +189,7 @@ const Checkout = () => {
                     required
                   />
                 </div>
+                
                 <div className="mb-1">
                   <label
                     htmlFor="country" 
