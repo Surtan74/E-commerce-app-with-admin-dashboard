@@ -176,14 +176,14 @@ const Checkout = () => {
                     htmlFor="state" 
                     className="form-label fw-bold"
                   >
-                    State :
+                    County :
                   </label>
                   <input
                     type="text" 
-                    id="state" 
+                    id="county" 
                     className="form-control" 
                     placeholder="enter state" 
-                    name="state" 
+                    name="county" 
                     value={deliveryInfo.state}
                     onChange={handleChange}
                     required

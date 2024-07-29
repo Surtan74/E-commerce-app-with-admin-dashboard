@@ -10,9 +10,9 @@
       "id": 1,
       "phone": "46656545",
       "house": "666/1",
-      "street": "Hell Street",
-      "state": "Nostate",
-      "country": "Neverland"
+      "street": "nairobi",
+      "county": "Nairobi",
+      "country": "kenya"
     },
     {
       "username": "Guest User",
@@ -24,7 +24,7 @@
       "id": 2,
       "house": "house 1",
       "street": "some street",
-      "state": "Somewhere",
+      "county": "Somewhere",
       "country": "Country Name",
       "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674138205/vxhdz4ogy6rljpk3zrgq.jpg"
     },
@@ -58,9 +58,9 @@
       "id": 1,
       "phone": "46656545",
       "house": "666/1",
-      "street": "Hell Street",
-      "state": "Nostate",
-      "country": "Neverland"
+      "street": "madaraka",
+      "county": "Nairobi",
+      "country": "Kenya"
     },
     {
       "username": "Dummy User",
@@ -69,7 +69,7 @@
       "phone": "0123456789",
       "house": "house no",
       "street": "street name",
-      "state": "state name",
+      "county": "county name",
       "country": "Virtual",
       "image": "https://res.cloudinary.com/djorpdesu/image/upload/v1674138093/gdybotabhkk6enkuvlgd.jpg",
       "status": "active",
@@ -82,7 +82,7 @@
       "phone": "65465465",
       "house": "666/1",
       "street": "street street",
-      "state": "Inferno",
+      "county": "Inferno",
       "country": "neverland",
       "image": "",
       "status": "blocked",
@@ -93,19 +93,22 @@
     {
       "title": "Banner 02",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674146323/xenbtsqi8vtqbsmy4ksx.jpg",
+      "height": "200px",
+      "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721815819/WhatsApp_Image_2024-07-24_at_12.41.05_PM_1_ihh0pv.jpg",
       "id": 2
     },
     {
       "title": "Banner 03",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674413912/cph4lwog7309ivxukzzm.jpg",
+      "height": "200px",
+      "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721815818/WhatsApp_Image_2024-07-24_at_12.41.05_PM_ukqkar.jpg",
       "id": 3
     },
     {
       "title": "Banner 04",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674413943/y2rhku9qrgchtyuqs88v.jpg",
+      "height": "200px",
+      "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721815818/WhatsApp_Image_2024-07-24_at_12.41.05_PM_ukqkar.jpg",
       "id": 4
     }
   ],
@@ -159,9 +162,9 @@
   ],
   "products": [
     {
-      "title": "Fjallraven Nothing",
-      "description": "Your perfect pack for everyday use and walks in the forest.\n\nStash your laptop (up to 15 inches) in the padded sleeve, your everyday.Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\nYour perfect pack for everyday use and walks in the forest.",
-      "brand": "Satisfaction ",
+      "title": "Ultimate Daily Multivitamin",
+      "description": "A comprehensive multivitamin designed to support overall health and wellness. Packed with essential vitamins and minerals to boost your daily nutrient intake.",
+      "brand": "Health Boosters",
       "price": 109.95,
       "category": "Pre-Workout",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement10_ucqpbk.jpg",
@@ -169,9 +172,9 @@
       "id": 1
     },
     {
-      "title": "T-Shirts ",
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. \nAnd Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      "brand": "Satisfaction ",
+      "title": "High-Protein Shake Mix",
+      "description": "A delicious and nutritious shake mix that provides a high dose of protein to support muscle growth and recovery. Perfect for post-workout consumption.",
+      "brand": "Fit Fuel",
       "price": 22.3,
       "category": "Proteins",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement7_fhdivg.jpg",
@@ -179,9 +182,9 @@
       "id": 2
     },
     {
-      "title": "Jacket",
-      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "brand": "Legends Collection ",
+      "title": "Energy Boost Pre-Workout",
+      "description": "A powerful pre-workout formula designed to increase energy, focus, and endurance. Ideal for enhancing your workout performance.",
+      "brand": "Active Power",
       "price": 55.99,
       "category": "Pre-Workout",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement9_erf24e.jpg",
@@ -189,19 +192,19 @@
       "id": 3
     },
     {
-      "status": "active",
-      "id": 4,
-      "title": "Casual Slim Fit",
+      "title": "Creatine Monohydrate",
+      "description": "High-quality creatine monohydrate to boost muscle strength and improve athletic performance. Essential for serious athletes and bodybuilders.",
+      "brand": "Muscle Gain",
       "price": 15.99,
-      "brand": "The color",
-      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "category": "DMHA Enhanced",
-      "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement8_fhrxmg.jpg"
+      "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement8_fhrxmg.jpg",
+      "status": "active",
+      "id": 4
     },
     {
-      "title": "Chain Bracelet",
-      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-      "brand": "Legends Collection ",
+      "title": "BCAA Chain Aminos",
+      "description": "Branched-chain amino acids (BCAAs) to support muscle recovery and reduce exercise fatigue. Perfect for post-workout supplementation.",
+      "brand": "Recovery Fuel",
       "price": 695,
       "category": "Proteins",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement5_gvcpgx.jpg",
@@ -209,9 +212,9 @@
       "id": 5
     },
     {
-      "title": "Micropave ",
-      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-      "brand": "Satisfaction ",
+      "title": "Micropave Protein Powder",
+      "description": "Premium protein powder designed for muscle growth and recovery. Made from high-quality ingredients to ensure optimal results.",
+      "brand": "Pure Protein",
       "price": 168,
       "category": "Pre-Workout",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement4_m90mea.jpg",
@@ -219,9 +222,9 @@
       "id": 6
     },
     {
-      "title": "Princess",
-      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-      "brand": "Classic ",
+      "title": "Whey Protein Isolate",
+      "description": "High-purity whey protein isolate to support muscle building and recovery. Low in carbs and fats, ideal for a lean physique.",
+      "brand": "Classic Nutrition",
       "price": 9.99,
       "category": "Proteins",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement6_bs8um9.jpg",
@@ -229,9 +232,9 @@
       "id": 7
     },
     {
-      "title": "Double",
-      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-      "brand": "Rose Gold ",
+      "title": "Casein Protein",
+      "description": "Slow-digesting casein protein to provide a steady release of amino acids. Perfect for nighttime recovery and muscle maintenance.",
+      "brand": "Night Fuel",
       "price": 10.99,
       "category": "Proteins",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement3_dtlyxk.jpg",
@@ -239,19 +242,19 @@
       "id": 8
     },
     {
-      "id": 9,
-      "title": "WD 2TB Hard Drive ",
-      "brand": "WD",
+      "title": "Omega-3 Fish Oil",
+      "description": "High-quality omega-3 fish oil supplement to support heart health, brain function, and joint mobility. A must-have for overall wellness.",
+      "brand": "Heart Health",
       "price": 64,
-      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
       "category": "DMHA Enhanced",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement2_p3lzgh.jpg",
-      "status": "active"
+      "status": "active",
+      "id": 9
     },
     {
-      "title": "1TB Internal SSD",
-      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-      "brand": "SanDisk ",
+      "title": "Vitamin D3 Supplement",
+      "description": "Essential vitamin D3 supplement to support bone health, immune function, and mood. Perfect for those with limited sun exposure.",
+      "brand": "Sunshine Vitamins",
       "price": 109,
       "category": "DMHA Enhanced",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement1_xs4mns.jpg",
@@ -259,9 +262,9 @@
       "id": 10
     },
     {
-      "title": "Winter Coats",
-      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-      "brand": "BIYLACLESEN ",
+      "title": "Immune Support Gummies",
+      "description": "Delicious gummies packed with vitamins and antioxidants to support a healthy immune system. Perfect for daily supplementation.",
+      "brand": "BIYLACLESEN",
       "price": 56.99,
       "category": "Pre-Workout",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement10_ucqpbk.jpg",
@@ -269,13 +272,13 @@
       "id": 15
     },
     {
-      "title": "Biker Jacket",
-      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-      "brand": "Lock and Love ",
+      "title": "Vitamin C Booster",
+      "description": "High-potency vitamin C supplement to support immune health and antioxidant protection. Essential for overall well-being.",
+      "brand": "Lock and Love",
       "price": 29.95,
       "category": "Pre-Workout",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement3_dtlyxk.jpg",
-      "status": "active",
+      "status": "hidden",
       "id": 16
     }
   ],
@@ -293,9 +296,9 @@
         "name": "Guest User",
         "phone": "46656545",
         "house": "666/1",
-        "street": "Hell Street",
-        "state": "Nostate",
-        "country": "Neverland"
+        "street": "madaraka",
+        "county": "nairobi",
+        "country": "kenya"
       },
       "products": [
         {
@@ -332,7 +335,7 @@
         "phone": "0123456789",
         "house": "house no",
         "street": "street name",
-        "state": "state name",
+        "county": "county name",
         "country": "Virtual"
       },
       "products": [
@@ -393,9 +396,9 @@
         "name": "Guest User",
         "phone": "46656545",
         "house": "666/1",
-        "street": "Hell Street",
-        "state": "Nostate",
-        "country": "Neverland"
+        "street": "madaraka",
+        "county": "Nairobi",
+        "country": "Kenya"
       },
       "products": [
         {
@@ -447,9 +450,9 @@
         "name": "Guest User",
         "phone": "46656545",
         "house": "666/1",
-        "street": "Hell Street",
-        "state": "Nostate",
-        "country": "Neverland"
+        "street": "madaraka",
+        "county": "nairobi",
+        "country": "Kenya"
       },
       "products": [
         {
@@ -479,6 +482,52 @@
       ],
       "status": "pending",
       "id": 5
+    },
+    {
+      "customerId": 1,
+      "customerName": "Guest User",
+      "customerEmail": "guest@dummy.com",
+      "date": "2024-07-29T13:52:05.783Z",
+      "coupon": "",
+      "discountPercent": 0,
+      "subTotal": 332.88,
+      "total": 332.88,
+      "deliveryInfo": {
+        "name": "Guest User",
+        "phone": "46656545",
+        "house": "666/1",
+        "street": "madaraka",
+        "county": "Nairobi",
+        "country": "Kenya"
+      },
+      "products": [
+        {
+          "id": 15,
+          "title": "Immune Support Gummies",
+          "price": 56.99,
+          "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement10_ucqpbk.jpg",
+          "quantity": 1,
+          "total": 56.99
+        },
+        {
+          "id": 3,
+          "title": "Energy Boost Pre-Workout",
+          "price": 55.99,
+          "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement9_erf24e.jpg",
+          "quantity": 1,
+          "total": 55.99
+        },
+        {
+          "id": 1,
+          "title": "Ultimate Daily Multivitamin",
+          "price": 109.95,
+          "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement10_ucqpbk.jpg",
+          "quantity": 2,
+          "total": 219.9
+        }
+      ],
+      "status": "pending",
+      "id": 6
     }
   ]
 }

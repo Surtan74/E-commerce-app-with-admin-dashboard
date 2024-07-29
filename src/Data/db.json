@@ -10,9 +10,9 @@
       "id": 1,
       "phone": "46656545",
       "house": "666/1",
-      "street": "Hell Street",
-      "state": "Nostate",
-      "country": "Neverland"
+      "street": "nairobi",
+      "county": "Nairobi",
+      "country": "kenya"
     },
     {
       "username": "Guest User",
@@ -24,7 +24,7 @@
       "id": 2,
       "house": "house 1",
       "street": "some street",
-      "state": "Somewhere",
+      "county": "Somewhere",
       "country": "Country Name",
       "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674138205/vxhdz4ogy6rljpk3zrgq.jpg"
     },
@@ -58,9 +58,9 @@
       "id": 1,
       "phone": "46656545",
       "house": "666/1",
-      "street": "Hell Street",
-      "state": "Nostate",
-      "country": "Neverland"
+      "street": "madaraka",
+      "county": "Nairobi",
+      "country": "Kenya"
     },
     {
       "username": "Dummy User",
@@ -69,7 +69,7 @@
       "phone": "0123456789",
       "house": "house no",
       "street": "street name",
-      "state": "state name",
+      "county": "county name",
       "country": "Virtual",
       "image": "https://res.cloudinary.com/djorpdesu/image/upload/v1674138093/gdybotabhkk6enkuvlgd.jpg",
       "status": "active",
@@ -82,7 +82,7 @@
       "phone": "65465465",
       "house": "666/1",
       "street": "street street",
-      "state": "Inferno",
+      "county": "Inferno",
       "country": "neverland",
       "image": "",
       "status": "blocked",
@@ -90,12 +90,10 @@
     }
   ],
   "banner": [
-    
     {
       "title": "Banner 02",
       "status": "active",
       "height": "200px",
-
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721815819/WhatsApp_Image_2024-07-24_at_12.41.05_PM_1_ihh0pv.jpg",
       "id": 2
     },
@@ -103,7 +101,6 @@
       "title": "Banner 03",
       "status": "active",
       "height": "200px",
-
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721815818/WhatsApp_Image_2024-07-24_at_12.41.05_PM_ukqkar.jpg",
       "id": 3
     },
@@ -114,7 +111,6 @@
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721815818/WhatsApp_Image_2024-07-24_at_12.41.05_PM_ukqkar.jpg",
       "id": 4
     }
-   
   ],
   "category": [
     {
@@ -122,7 +118,6 @@
       "status": "active",
       "id": 1
     },
-   
     {
       "category": "Proteins",
       "status": "active",
@@ -138,7 +133,6 @@
       "status": "hidden",
       "id": 6
     }
-   
   ],
   "coupon": [
     {
@@ -166,7 +160,7 @@
       "id": 4
     }
   ],
-  "products":[
+  "products": [
     {
       "title": "Ultimate Daily Multivitamin",
       "description": "A comprehensive multivitamin designed to support overall health and wellness. Packed with essential vitamins and minerals to boost your daily nutrient intake.",
@@ -284,11 +278,10 @@
       "price": 29.95,
       "category": "Pre-Workout",
       "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809542/supplement3_dtlyxk.jpg",
-      "status": "active",
+      "status": "hidden",
       "id": 16
     }
-  ]
-,
+  ],
   "orders": [
     {
       "customerId": 1,
@@ -303,9 +296,9 @@
         "name": "Guest User",
         "phone": "46656545",
         "house": "666/1",
-        "street": "Hell Street",
-        "state": "Nostate",
-        "country": "Neverland"
+        "street": "madaraka",
+        "county": "nairobi",
+        "country": "kenya"
       },
       "products": [
         {
@@ -316,7 +309,6 @@
           "quantity": 1,
           "total": 109
         },
-       
         {
           "id": 2,
           "title": "T-Shirts ",
@@ -325,8 +317,6 @@
           "quantity": 3,
           "total": 66.9
         }
-
-
       ],
       "status": "active",
       "id": 1
@@ -345,7 +335,7 @@
         "phone": "0123456789",
         "house": "house no",
         "street": "street name",
-        "state": "state name",
+        "county": "county name",
         "country": "Virtual"
       },
       "products": [
@@ -406,9 +396,9 @@
         "name": "Guest User",
         "phone": "46656545",
         "house": "666/1",
-        "street": "Hell Street",
-        "state": "Nostate",
-        "country": "Neverland"
+        "street": "madaraka",
+        "county": "Nairobi",
+        "country": "Kenya"
       },
       "products": [
         {
@@ -447,7 +437,6 @@
       "status": "active",
       "id": 3
     },
-
     {
       "customerId": 1,
       "customerName": "Guest User",
@@ -461,9 +450,9 @@
         "name": "Guest User",
         "phone": "46656545",
         "house": "666/1",
-        "street": "Hell Street",
-        "state": "Nostate",
-        "country": "Neverland"
+        "street": "madaraka",
+        "county": "nairobi",
+        "country": "Kenya"
       },
       "products": [
         {
@@ -490,12 +479,55 @@
           "quantity": 1,
           "total": 10.99
         }
-        
       ],
       "status": "pending",
       "id": 5
+    },
+    {
+      "customerId": 1,
+      "customerName": "Guest User",
+      "customerEmail": "guest@dummy.com",
+      "date": "2024-07-29T13:52:05.783Z",
+      "coupon": "",
+      "discountPercent": 0,
+      "subTotal": 332.88,
+      "total": 332.88,
+      "deliveryInfo": {
+        "name": "Guest User",
+        "phone": "46656545",
+        "house": "666/1",
+        "street": "madaraka",
+        "county": "Nairobi",
+        "country": "Kenya"
+      },
+      "products": [
+        {
+          "id": 15,
+          "title": "Immune Support Gummies",
+          "price": 56.99,
+          "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement10_ucqpbk.jpg",
+          "quantity": 1,
+          "total": 56.99
+        },
+        {
+          "id": 3,
+          "title": "Energy Boost Pre-Workout",
+          "price": 55.99,
+          "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement9_erf24e.jpg",
+          "quantity": 1,
+          "total": 55.99
+        },
+        {
+          "id": 1,
+          "title": "Ultimate Daily Multivitamin",
+          "price": 109.95,
+          "image": "https://res.cloudinary.com/db0i0umxn/image/upload/v1721809543/supplement10_ucqpbk.jpg",
+          "quantity": 2,
+          "total": 219.9
+        }
+      ],
+      "status": "pending",
+      "id": 6
     }
-  
-    
   ]
 }

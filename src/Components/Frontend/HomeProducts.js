@@ -22,7 +22,7 @@ const HomeProducts = ({category}) => {
             <div className='pt-5 row g-2 g-sm-5'>
                 { products && products.map(product => {
                     const { status } = product;
-                    
+                
                     return status === 'active' ? (
                         <div key={product.id} className='col-xml-12 col-sm-6 col-md-4 col-lg-3'>
                             <ProductCard product={product} />
